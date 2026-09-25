@@ -2,29 +2,30 @@
   "headline": "Mi Primer Servidor MSX",
   "menu": [
     {
-      "icon": "home",
-      "label": "Inicio",
-      "data": {
-        "type": "pages",
-        "template": {
-          "type": "default",
-          "layout": "0,0,3,2",
-          "color": "msx-glass",
-          "imageFiller": "cover"
-        },
-        "items": [
-          {
-            "title": "Pluto TV México",
-            "label": "Canales en vivo",
-            "image": "https://losg76369.github.io/41+C5TFE3kL.png",
-            "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FBuddyChewChew%2Fpluto%2Fmain%2Fpluto_mx.m3u"
-          }
-        ]
-      }
+      "type": "separator",
+      "label": "TV EN VIVO"
+    },
+    {
+      "icon": "movie",
+      "label": "Pluto TV México",
+      "extensionLabel": "Canales en vivo",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FBuddyChewChew%2Fpluto%2Fmain%2Fpluto_mx.m3u"
+    },
+    {
+      "icon": "movie",
+      "label": "LATAM",
+      "extensionLabel": "Lista M3U",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fm3u.cl%2Flista%2FLATAM.m3u"
+    },
+
+    {
+      "type": "separator",
+      "label": "SITIOS WEB"
     },
     {
       "icon": "web",
-      "label": "Sitios Web",
+      "label": "Pluto TV",
+      "extensionLabel": "Sitio web",
       "data": {
         "type": "pages",
         "template": {
@@ -39,10 +40,26 @@
             "label": "Abrir sitio web",
             "image": "https://losg76369.github.io/41+C5TFE3kL.png",
             "action": "link:https://pluto.tv/latam/home/"
-          },
+          }
+        ]
+      }
+    },
+    {
+      "icon": "web",
+      "label": "SoloLatino",
+      "extensionLabel": "Sitio web",
+      "data": {
+        "type": "pages",
+        "template": {
+          "type": "default",
+          "layout": "0,0,3,2",
+          "color": "msx-glass",
+          "imageFiller": "cover"
+        },
+        "items": [
           {
             "title": "SoloLatino",
-            "label": "Películas y series",
+            "label": "Abrir sitio web",
             "image": "https://losg76369.github.io/unnamed.jpg",
             "action": "link:https://sololatino.net/"
           }
