@@ -1,28 +1,5 @@
 {
   "name": "Mi Primer Servidor MSX",
   "version": "1.0.0",
-  "headline": "Mi Primer Servidor MSX",
-  "menu": [
-    {
-      "label": "Inicio",
-      "icon": "home",
-      "data": {
-        "type": "items",
-        "items": [
-          {
-            "title": "PlutoTV",
-            "label": "Ver TV en vivo",
-            "image": "https://losg76369.github.io/41+C5TFE3kL.png",
-            "action": "link:https://pluto.tv/latam/home/"
-          },
-          {
-            "title": "CineCalidad",
-            "label": "Ver Películas",
-            "image": "https://losg76369.github.io/unnamed.jpg",
-            "action": "link:https://sololatino.net/"
-          }
-        ]
-      }
-    }
-  ]
+  "parameter": "menu:https://losg76369.github.io/msx/menu.json"
 }
