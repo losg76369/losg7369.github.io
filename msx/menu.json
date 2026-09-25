@@ -5,6 +5,7 @@
       "label": "Inicio",
       "icon": "home",
       "data": {
+        "type": "items",
         "items": [
           {
             "title": "PlutoTV",
