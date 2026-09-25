@@ -17,10 +17,9 @@
       "label": "PRUEBA DE NAVEGACIÓN"
     },
     {
-      "icon": "movie",
-      "label": "Catálogo de prueba MSX",
-      "extensionLabel": "Navegación y reproducción",
-      "action": "content:https://msx.benzac.de/info/data/guide/videos.json"
+  "icon": "movie",
+  "label": "Prueba MSX",
+  "action": "content:https://msx.benzac.de/info/data/guide/videos.json"
     },
 
     {
