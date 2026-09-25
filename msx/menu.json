@@ -14,22 +14,22 @@
         },
         "items": [
           {
+            "title": "Pluto TV México",
+            "label": "Canales en vivo",
+            "image": "https://losg76369.github.io/41+C5TFE3kL.png",
+            "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FBuddyChewChew%2Fpluto%2Fmain%2Fpluto_mx.m3u"
+          },
+          {
             "title": "Pluto TV",
             "label": "Abrir sitio web",
             "image": "https://losg76369.github.io/41+C5TFE3kL.png",
             "action": "link:https://pluto.tv/latam/home/"
           },
           {
-            "title": "CineCalidad",
+            "title": "SoloLatino",
             "label": "Abrir sitio web",
             "image": "https://losg76369.github.io/unnamed.jpg",
             "action": "link:https://sololatino.net/"
-          },
-          {
-            "title": "MSX / TVX",
-            "label": "Aplicaciones MSX",
-            "image": "https://msx.benzac.de/img/bg1.jpg",
-            "action": "link:https://msx.benzac.de/"
           }
         ]
       }
