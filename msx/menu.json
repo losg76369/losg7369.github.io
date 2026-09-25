@@ -1,9 +1,9 @@
 {
-  "headline": "Prueba MSX",
+  "headline": "Prueba Web",
   "menu": [
     {
       "icon": "image",
-      "label": "Sitios",
+      "label": "Sitio de prueba",
       "data": {
         "type": "pages",
         "template": {
@@ -15,13 +15,8 @@
         },
         "items": [
           {
-            "label": "Pluto TV",
+            "label": "Example",
             "image": "https://losg76369.github.io/41+C5TFE3kL.png",
-            "action": "link:https://pluto.tv/latam/home/"
-          },
-          {
-            "label": "Sitio de prueba",
-            "image": "https://losg76369.github.io/unnamed.jpg",
             "action": "link:https://example.com/"
           }
         ]
