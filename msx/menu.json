@@ -8,13 +8,15 @@
         "items": [
           {
             "title": "PlutoTV",
-            "label": "Ver televisión gratis",
-            "image": "https://losg76369.github.io/41+C5TFE3kL.png",
+            "label": "Ver TV en vivo",
+            "icon": "tv",
+            "image": "https://losg76369.github.io/41%2BC5TFE3kL.png",
             "action": "link:https://pluto.tv/latam/home/"
           },
           {
             "title": "CineCalidad",
-            "label": "Ver películas",
+            "label": "Ver Películas",
+            "icon": "movie",
             "image": "https://losg76369.github.io/unnamed.jpg",
             "action": "link:https://sololatino.net/"
           }
