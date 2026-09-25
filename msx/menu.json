@@ -26,10 +26,10 @@
             "action": "link:https://sololatino.net/"
           },
           {
-            "title": "Prueba de vídeo",
-            "label": "Reproducir vídeo",
-            "image": "https://dummyimage.com/640x360/000/fff.png&text=VIDEO",
-            "action": "content:https://losg76369.github.io/msx/video.json"
+            "title": "Videos MSX",
+            "label": "Prueba oficial",
+            "image": "https://msx.benzac.de/img/bg1.jpg",
+            "action": "content:https://msx.benzac.de/info/data/guide/videos.json"
           }
         ]
       }
