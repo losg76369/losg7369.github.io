@@ -14,12 +14,13 @@
 
     {
       "type": "separator",
-      "label": "PRUEBA DE NAVEGACIÓN"
+      "label": "APLICACIONES"
     },
     {
-  "icon": "movie",
-  "label": "Prueba MSX",
-  "action": "content:https://msx.benzac.de/info/data/guide/videos.json"
+      "icon": "web",
+      "label": "MSX / TVX",
+      "extensionLabel": "Aplicaciones MSX",
+      "action": "link:https://msx.benzac.de/"
     },
 
     {
@@ -32,15 +33,11 @@
       "extensionLabel": "Sitio web",
       "action": "link:https://pluto.tv/latam/home/"
     },
-
     {
-      "type": "separator",
-      "label": "NAVEGACIÓN"
-    },
-    {
-      "icon": "home",
-      "label": "Volver al inicio",
-      "action": "back"
+      "icon": "web",
+      "label": "SoloLatino",
+      "extensionLabel": "Sitio web",
+      "action": "link:https://sololatino.net/"
     }
   ]
 }
