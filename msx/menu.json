@@ -1,169 +1,59 @@
 {
   "headline": "Mi Primer Servidor MSX",
   "menu": [
-
     {
       "type": "separator",
-      "label": "TV EN VIVO"
+      "label": "PLUTO TV (MÉXICO / LATAM)"
     },
-
     {
       "icon": "movie",
       "label": "Pluto TV México",
-      "extensionLabel": "Canales en vivo",
+      "extensionLabel": "Todos los canales en vivo",
       "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FBuddyChewChew%2Fpluto%2Fmain%2Fpluto_mx.m3u"
     },
 
     {
       "type": "separator",
-      "label": "CATEGORÍAS"
-    },
-
-    {
-      "icon": "movie",
-      "label": "Animación",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fanimation.m3u"
+      "label": "TV EN ESPAÑOL (IPTV)"
     },
     {
       "icon": "movie",
-      "label": "Comedia",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fcomedy.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "Cocina",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fcooking.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "Cultura",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fculture.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "Documentales",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fdocumentary.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "Educación",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Feducation.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "Entretenimiento",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fentertainment.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "Familia",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Ffamily.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "Kids",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fkids.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "Películas",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fmovies.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "Música",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fmusic.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "Noticias",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fnews.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "Ciencia",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fscience.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "Series",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fseries.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "Deportes",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fsports.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "Viajes",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Ftravel.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "Clima",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fweather.m3u"
-    },
-
-    {
-      "type": "separator",
-      "label": "IDIOMAS"
-    },
-
-    {
-      "icon": "movie",
-      "label": "Español",
+      "label": "🌐 Todos los Canales en Español",
+      "extensionLabel": "Filtro global español",
       "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Flanguages%2Fspa.m3u"
     },
     {
       "icon": "movie",
-      "label": "English",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Flanguages%2Feng.m3u"
+      "label": "🇲🇽 México",
+      "extensionLabel": "Señal en vivo",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcountries%2Fmx.m3u"
     },
     {
       "icon": "movie",
-      "label": "Français",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Flanguages%2Ffra.m3u"
+      "label": "🇪🇸 España",
+      "extensionLabel": "Señal en vivo",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcountries%2Fes.m3u"
     },
     {
       "icon": "movie",
-      "label": "Deutsch",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Flanguages%2Fdeu.m3u"
+      "label": "🇦🇷 Argentina",
+      "extensionLabel": "Señal en vivo",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcountries%2Far.m3u"
     },
     {
       "icon": "movie",
-      "label": "Italiano",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Flanguages%2Fita.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "Português",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Flanguages%2Fpor.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "中文",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Flanguages%2Fzho.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "日本語",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Flanguages%2Fjpn.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "Русский",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Flanguages%2Frus.m3u"
+      "label": "🇨🇴 Colombia",
+      "extensionLabel": "Señal en vivo",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcountries%2Fco.m3u"
     },
 
     {
       "type": "separator",
       "label": "SITIOS WEB"
     },
-
     {
       "icon": "web",
-      "label": "Pluto TV",
+      "label": "Pluto TV Web",
       "extensionLabel": "Sitio web",
       "data": {
         "type": "pages",
@@ -178,12 +68,11 @@
             "title": "Pluto TV",
             "label": "Abrir sitio web",
             "image": "https://losg76369.github.io/41+C5TFE3kL.png",
-            "action": "link:https://pluto.tv/latam/home/"
+            "action": "web:https://pluto.tv/latam/home/"
           }
         ]
       }
     },
-
     {
       "icon": "web",
       "label": "SoloLatino",
@@ -201,7 +90,7 @@
             "title": "SoloLatino",
             "label": "Abrir sitio web",
             "image": "https://losg76369.github.io/unnamed.jpg",
-            "action": "link:https://sololatino.net/"
+            "action": "web:https://sololatino.net/"
           }
         ]
       }
