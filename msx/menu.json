@@ -23,11 +23,11 @@
       "action": "link:https://pluto.tv/latam/home/"
     },
     {
-      "icon": "web",
-      "label": "SoloLatino",
-      "extensionLabel": "Películas y series",
-      "action": "link:https://sololatino.net/"
-    },
+  "icon": "web",
+  "label": "SoloLatino",
+  "extensionLabel": "Películas y series",
+  "action": "link:window:https://sololatino.net/"
+},
 
     {
       "type": "separator",
