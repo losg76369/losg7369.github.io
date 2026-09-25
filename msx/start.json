@@ -1,5 +1,5 @@
 {
   "name": "Mi Primer Servidor MSX",
   "version": "1.0.0",
-  "parameter": "menu:menu.json"
+  "parameter": "menu:https://losg76369.github.io/msx/menu.json"
 }
