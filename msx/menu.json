@@ -3,18 +3,21 @@
   "menu": [
     {
       "type": "separator",
-      "label": "TV Y MULTIMEDIA"
+      "label": "TELEVISIÓN"
     },
     {
       "icon": "movie",
-      "label": "TV de prueba",
-      "extensionLabel": "Playlist M3U",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=http://msx.benzac.de/info/data/m3u/videos.m3u"
+      "label": "Pluto TV México",
+      "extensionLabel": "Canales",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FBuddyChewChew%2Fpluto%2Fmain%2Fpluto_mx.m3u"
+    },
+    {
+      "type": "separator",
+      "label": "VIDEOS"
     },
     {
       "icon": "movie",
       "label": "Videos MSX",
-      "extensionLabel": "Demostración",
       "data": "https://msx.benzac.de/info/data/guide/videos.json"
     },
     {
