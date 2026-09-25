@@ -2,73 +2,34 @@
   "headline": "Mi Primer Servidor MSX",
   "menu": [
     {
-      "icon": "movie",
-      "label": "TV en vivo",
-      "data": {
-        "type": "pages",
-        "template": {
-          "type": "separate",
-          "layout": "0,0,2,4",
-          "icon": "msx-white-soft:movie",
-          "color": "msx-glass"
-        },
-        "items": [
-          {
-            "title": "Canal de prueba",
-            "label": "HLS / En vivo",
-            "image": "https://msx.benzac.de/img/bg1.jpg",
-            "action": "video:URL_M3U8_AQUI"
-          }
-        ]
-      }
+      "type": "separator",
+      "label": "TV Y MULTIMEDIA"
     },
     {
       "icon": "movie",
-      "label": "Videos",
-      "data": {
-        "type": "pages",
-        "template": {
-          "type": "separate",
-          "layout": "0,0,2,4",
-          "icon": "msx-white-soft:movie",
-          "color": "msx-glass"
-        },
-        "items": [
-          {
-            "title": "Videos MSX",
-            "label": "Demostración",
-            "image": "https://msx.benzac.de/img/bg1.jpg",
-            "action": "content:https://msx.benzac.de/info/data/guide/videos.json"
-          }
-        ]
-      }
+      "label": "TV de prueba",
+      "extensionLabel": "Playlist M3U",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=http://msx.benzac.de/info/data/m3u/videos.m3u"
     },
     {
-      "icon": "image",
-      "label": "Sitios web",
-      "data": {
-        "type": "pages",
-        "template": {
-          "type": "default",
-          "layout": "0,0,3,2",
-          "color": "msx-glass",
-          "imageFiller": "cover"
-        },
-        "items": [
-          {
-            "title": "Pluto TV",
-            "label": "Abrir sitio web",
-            "image": "https://losg76369.github.io/41+C5TFE3kL.png",
-            "action": "link:https://pluto.tv/latam/home/"
-          },
-          {
-            "title": "CineCalidad",
-            "label": "Abrir sitio web",
-            "image": "https://losg76369.github.io/unnamed.jpg",
-            "action": "link:https://sololatino.net/"
-          }
-        ]
-      }
+      "icon": "movie",
+      "label": "Videos MSX",
+      "extensionLabel": "Demostración",
+      "data": "https://msx.benzac.de/info/data/guide/videos.json"
+    },
+    {
+      "type": "separator",
+      "label": "SITIOS WEB"
+    },
+    {
+      "icon": "web",
+      "label": "Pluto TV",
+      "action": "link:https://pluto.tv/latam/home/"
+    },
+    {
+      "icon": "web",
+      "label": "CineCalidad",
+      "action": "link:https://sololatino.net/"
     }
   ]
 }
