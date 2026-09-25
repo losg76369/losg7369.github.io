@@ -4,7 +4,23 @@
     {
       "icon": "movie",
       "label": "TV de prueba",
-      "data": "content:https://losg76369.github.io/msx/tv.json"
+      "data": {
+        "type": "pages",
+        "template": {
+          "type": "default",
+          "layout": "0,0,3,2",
+          "color": "msx-glass",
+          "imageFiller": "cover"
+        },
+        "items": [
+          {
+            "title": "Videos MSX",
+            "label": "Pruebas de reproducción",
+            "image": "https://msx.benzac.de/img/bg1.jpg",
+            "action": "content:https://msx.benzac.de/info/data/guide/videos.json"
+          }
+        ]
+      }
     },
     {
       "icon": "language",
