@@ -14,110 +14,168 @@
 
     {
       "type": "separator",
-      "label": "IPTV-org · ESPAÑOL"
-    },
-
-    {
-      "icon": "movie",
-      "label": "🎬 Películas",
-      "extensionLabel": "IPTV-org · Español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fpeliculas-es.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "🎭 Entretenimiento",
-      "extensionLabel": "IPTV-org · Español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fentretenimiento-es.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "👶 Kids",
-      "extensionLabel": "IPTV-org · Español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fkids-es.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "📚 Documentales",
-      "extensionLabel": "IPTV-org · Español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fdocumentales-es.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "🎵 Música",
-      "extensionLabel": "IPTV-org · Español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fmusica-es.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "📰 Noticias",
-      "extensionLabel": "IPTV-org · Español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fnoticias-es.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "⚽ Deportes",
-      "extensionLabel": "IPTV-org · Español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fdeportes-es.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "🔬 Ciencia",
-      "extensionLabel": "IPTV-org · Español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fciencia-es.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "✈️ Viajes",
-      "extensionLabel": "IPTV-org · Español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fviajes-es.m3u"
+      "label": "CATEGORÍAS"
     },
     {
       "icon": "movie",
       "label": "🎨 Animación",
-      "extensionLabel": "IPTV-org · Español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fanimacion-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fanimation.m3u"
     },
     {
       "icon": "movie",
       "label": "😂 Comedia",
-      "extensionLabel": "IPTV-org · Español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fcomedia-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fcomedy.m3u"
     },
     {
       "icon": "movie",
       "label": "🍳 Cocina",
-      "extensionLabel": "IPTV-org · Español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fcocina-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fcooking.m3u"
     },
     {
       "icon": "movie",
       "label": "🌎 Cultura",
-      "extensionLabel": "IPTV-org · Español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fcultura-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fculture.m3u"
+    },
+    {
+      "icon": "movie",
+      "label": "📚 Documentales",
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fdocumentary.m3u"
     },
     {
       "icon": "movie",
       "label": "📖 Educación",
-      "extensionLabel": "IPTV-org · Español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Feducacion-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Feducation.m3u"
+    },
+    {
+      "icon": "movie",
+      "label": "🎭 Entretenimiento",
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fentertainment.m3u"
     },
     {
       "icon": "movie",
       "label": "👨‍👩‍👧 Familia",
-      "extensionLabel": "IPTV-org · Español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Ffamilia-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Ffamily.m3u"
+    },
+    {
+      "icon": "movie",
+      "label": "👶 Kids",
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fkids.m3u"
+    },
+    {
+      "icon": "movie",
+      "label": "🎬 Películas",
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fmovies.m3u"
+    },
+    {
+      "icon": "movie",
+      "label": "🎵 Música",
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fmusic.m3u"
+    },
+    {
+      "icon": "movie",
+      "label": "📰 Noticias",
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fnews.m3u"
+    },
+    {
+      "icon": "movie",
+      "label": "🔬 Ciencia",
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fscience.m3u"
     },
     {
       "icon": "movie",
       "label": "📺 Series",
-      "extensionLabel": "IPTV-org · Español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fseries-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fseries.m3u"
+    },
+    {
+      "icon": "movie",
+      "label": "⚽ Deportes",
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fsports.m3u"
+    },
+    {
+      "icon": "movie",
+      "label": "✈️ Viajes",
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Ftravel.m3u"
     },
     {
       "icon": "movie",
       "label": "🌦️ Clima",
-      "extensionLabel": "IPTV-org · Español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fclima-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fweather.m3u"
+    },
+
+    {
+      "type": "separator",
+      "label": "IDIOMAS"
+    },
+    {
+      "icon": "movie",
+      "label": "🇪🇸 Español",
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Flanguages%2Fspa.m3u"
+    },
+    {
+      "icon": "movie",
+      "label": "🇺🇸 English",
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Flanguages%2Feng.m3u"
+    },
+    {
+      "icon": "movie",
+      "label": "🇫🇷 Français",
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Flanguages%2Ffra.m3u"
+    },
+    {
+      "icon": "movie",
+      "label": "🇩🇪 Deutsch",
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Flanguages%2Fdeu.m3u"
+    },
+    {
+      "icon": "movie",
+      "label": "🇮🇹 Italiano",
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Flanguages%2Fita.m3u"
+    },
+    {
+      "icon": "movie",
+      "label": "🇧🇷 Português",
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Flanguages%2Fpor.m3u"
+    },
+    {
+      "icon": "movie",
+      "label": "🇨🇳 中文",
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Flanguages%2Fzho.m3u"
+    },
+    {
+      "icon": "movie",
+      "label": "🇯🇵 日本語",
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Flanguages%2Fjpn.m3u"
+    },
+    {
+      "icon": "movie",
+      "label": "🇷🇺 Русский",
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Flanguages%2Frus.m3u"
     },
 
     {
