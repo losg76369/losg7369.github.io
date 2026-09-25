@@ -11,7 +11,6 @@
       "extensionLabel": "Canales",
       "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FBuddyChewChew%2Fpluto%2Fmain%2Fpluto_mx.m3u"
     },
-
     {
       "type": "separator",
       "label": "SITIOS WEB"
@@ -23,15 +22,14 @@
       "action": "link:https://pluto.tv/latam/home/"
     },
     {
-  "icon": "web",
-  "label": "SoloLatino",
-  "extensionLabel": "Películas y series",
-  "action": "link:window:https://sololatino.net/"
-},
-
+      "icon": "web",
+      "label": "SoloLatino",
+      "extensionLabel": "Películas y series",
+      "action": "link:https://sololatino.net/"
+    },
     {
       "type": "separator",
-      "label": "DEMOSTRACIÓN MSX"
+      "label": "DEMOSTRACIÓN"
     },
     {
       "icon": "movie",
