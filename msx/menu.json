@@ -11,6 +11,18 @@
       "extensionLabel": "Canales",
       "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FBuddyChewChew%2Fpluto%2Fmain%2Fpluto_mx.m3u"
     },
+
+    {
+      "type": "separator",
+      "label": "PRUEBA DE NAVEGACIÓN"
+    },
+    {
+      "icon": "movie",
+      "label": "Catálogo de prueba MSX",
+      "extensionLabel": "Navegación y reproducción",
+      "action": "content:https://msx.benzac.de/info/data/guide/videos.json"
+    },
+
     {
       "type": "separator",
       "label": "SITIOS WEB"
@@ -18,24 +30,18 @@
     {
       "icon": "web",
       "label": "Pluto TV",
-      "extensionLabel": "Sitio oficial",
+      "extensionLabel": "Sitio web",
       "action": "link:https://pluto.tv/latam/home/"
     },
-    {
-      "icon": "web",
-      "label": "SoloLatino",
-      "extensionLabel": "Películas y series",
-      "action": "link:https://sololatino.net/"
-    },
+
     {
       "type": "separator",
-      "label": "DEMOSTRACIÓN"
+      "label": "NAVEGACIÓN"
     },
     {
-      "icon": "movie",
-      "label": "Videos MSX",
-      "extensionLabel": "Prueba",
-      "data": "content:https://msx.benzac.de/info/data/guide/videos.json"
+      "icon": "home",
+      "label": "Volver al inicio",
+      "action": "back"
     }
   ]
 }
