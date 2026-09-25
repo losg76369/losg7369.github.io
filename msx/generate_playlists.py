@@ -1,153 +1,125 @@
+import os
 import re
 import urllib.request
-from pathlib import Path
 
 BASE = "https://iptv-org.github.io/iptv"
 
-CATEGORIES = {
-    "movies": "peliculas-es.m3u",
-    "entertainment": "entretenimiento-es.m3u",
-    "kids": "kids-es.m3u",
-    "documentary": "documentales-es.m3u",
-    "music": "musica-es.m3u",
-    "news": "noticias-es.m3u",
-    "sports": "deportes-es.m3u",
-    "science": "ciencia-es.m3u",
-    "travel": "viajes-es.m3u",
-    "animation": "animacion-es.m3u",
-    "comedy": "comedia-es.m3u",
-    "cooking": "cocina-es.m3u",
-    "culture": "cultura-es.m3u",
-    "education": "educacion-es.m3u",
-    "family": "familia-es.m3u",
-    "series": "series-es.m3u",
-    "weather": "clima-es.m3u"
+CATEGORIAS = {
+    "peliculas": "movies",
+    "entretenimiento": "entertainment",
+    "kids": "kids",
+    "documentales": "documentary",
+    "musica": "music",
+    "noticias": "news",
+    "deportes": "sports",
+    "ciencia": "science",
+    "viajes": "travel",
+    "animacion": "animation",
+    "comedia": "comedy",
+    "cocina": "cooking",
+    "cultura": "culture",
+    "educacion": "education",
+    "familia": "family",
+    "series": "series",
+    "clima": "weather",
 }
 
-OUTPUT = Path("playlists")
-OUTPUT.mkdir(exist_ok=True)
 
+def descargar(url):
+    print("Descargando:", url)
 
-def download(url):
-    request = urllib.request.Request(
+    req = urllib.request.Request(
         url,
-        headers={
-            "User-Agent": "Mozilla/5.0"
-        }
+        headers={"User-Agent": "Mozilla/5.0"}
     )
 
-    with urllib.request.urlopen(request, timeout=60) as response:
-        return response.read().decode("utf-8", errors="replace")
+    with urllib.request.urlopen(req, timeout=60) as respuesta:
+        contenido = respuesta.read().decode("utf-8")
+
+    print("Descargados:", len(contenido), "caracteres")
+    return contenido
 
 
-def parse_m3u(text):
-    entries = []
+def obtener_ids(texto):
+    ids = set()
 
-    lines = text.splitlines()
+    for linea in texto.splitlines():
+        if linea.startswith("#EXTINF:"):
+            match = re.search(r'tvg-id="([^"]+)"', linea)
 
-    for i in range(len(lines)):
-        line = lines[i].strip()
+            if match:
+                ids.add(match.group(1))
 
-        if not line.startswith("#EXTINF:"):
-            continue
-
-        if i + 1 >= len(lines):
-            continue
-
-        stream_url = lines[i + 1].strip()
-
-        if not stream_url or stream_url.startswith("#"):
-            continue
-
-        match = re.search(r'tvg-id="([^"]*)"', line)
-
-        if not match:
-            continue
-
-        tvg_id = match.group(1)
-
-        entries.append({
-            "id": tvg_id,
-            "info": line,
-            "url": stream_url
-        })
-
-    return entries
+    return ids
 
 
-print("Descargando lista de canales en español...")
+os.makedirs("playlists", exist_ok=True)
 
-spanish_url = f"{BASE}/languages/spa.m3u"
-spanish_playlist = download(spanish_url)
+print("=== DESCARGANDO LISTA ESPAÑOLA ===")
 
-spanish_entries = parse_m3u(spanish_playlist)
+espanol = descargar(
+    f"{BASE}/languages/spa.m3u"
+)
 
-spanish_ids = {
-    entry["id"]
-    for entry in spanish_entries
-    if entry["id"]
-}
+ids_espanol = obtener_ids(espanol)
 
-print("Canales identificados como español:", len(spanish_ids))
+print("Canales españoles encontrados:", len(ids_espanol))
 
 
-for category, filename in CATEGORIES.items():
+for nombre, categoria in CATEGORIAS.items():
 
     print()
-    print("Procesando:", category)
+    print("================================")
+    print("Categoría:", nombre)
+    print("================================")
 
-    category_url = f"{BASE}/categories/{category}.m3u"
+    url = f"{BASE}/categories/{categoria}.m3u"
 
-    try:
-        category_playlist = download(category_url)
-    except Exception as error:
-        print("No se pudo descargar:", error)
-        continue
+    contenido = descargar(url)
 
-    category_entries = parse_m3u(category_playlist)
+    lineas = contenido.splitlines()
 
-    selected = []
-    already_added = set()
+    salida = ["#EXTM3U"]
 
-    for entry in category_entries:
+    incluidos = 0
 
-        if entry["id"] not in spanish_ids:
-            continue
+    i = 0
 
-        unique_key = (
-            entry["id"],
-            entry["url"]
-        )
+    while i < len(lineas):
 
-        if unique_key in already_added:
-            continue
+        linea = lineas[i]
 
-        already_added.add(unique_key)
-        selected.append(entry)
+        if linea.startswith("#EXTINF:"):
 
-    output = [
-        "#EXTM3U"
-    ]
+            match = re.search(r'tvg-id="([^"]+)"', linea)
 
-    for entry in selected:
-        output.append(entry["info"])
-        output.append(entry["url"])
+            if match and match.group(1) in ids_espanol:
 
-    output.append("")
+                salida.append(linea)
 
-    output_file = OUTPUT / filename
+                if i + 1 < len(lineas):
+                    salida.append(lineas[i + 1])
 
-    output_file.write_text(
-        "\n".join(output),
-        encoding="utf-8"
-    )
+                incluidos += 1
 
-    print(
-        "Canales encontrados:",
-        len(selected),
-        "->",
-        output_file
-    )
+                i += 2
+                continue
+
+        i += 1
+
+    archivo = f"playlists/{nombre}-es.m3u"
+
+    with open(archivo, "w", encoding="utf-8") as f:
+        f.write("\n".join(salida) + "\n")
+
+    print("Canales incluidos:", incluidos)
+    print("Archivo creado:", archivo)
+
 
 print()
-print("Proceso terminado.")
+print("=== TERMINADO ===")
+
+print("Archivos generados:")
+
+for archivo in os.listdir("playlists"):
+    print("-", archivo)
