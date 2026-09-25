@@ -23,11 +23,26 @@
             "label": "CineCalidad",
             "image": "https://losg76369.github.io/unnamed.jpg",
             "action": "link:https://sololatino.net/"
-          },
+          }
+        ]
+      }
+    },
+    {
+      "icon": "video",
+      "label": "Pruebas de vídeo",
+      "data": {
+        "type": "pages",
+        "template": {
+          "type": "default",
+          "layout": "0,0,3,2",
+          "color": "msx-glass",
+          "imageFiller": "cover"
+        },
+        "items": [
           {
-            "label": "Example",
-            "image": "https://losg76369.github.io/41+C5TFE3kL.png",
-            "action": "link:https://example.com/"
+            "label": "Vídeo de prueba",
+            "image": "https://dummyimage.com/640x360/000/fff.png&text=VIDEO+TEST",
+            "action": "video:https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
           }
         ]
       }
