@@ -3,19 +3,40 @@
   "menu": [
     {
       "icon": "movie",
-      "label": "TV de prueba",
+      "label": "TV en vivo",
       "data": {
         "type": "pages",
         "template": {
-          "type": "default",
-          "layout": "0,0,3,2",
-          "color": "msx-glass",
-          "imageFiller": "cover"
+          "type": "separate",
+          "layout": "0,0,2,4",
+          "icon": "msx-white-soft:movie",
+          "color": "msx-glass"
+        },
+        "items": [
+          {
+            "title": "Canal de prueba",
+            "label": "HLS / En vivo",
+            "image": "https://msx.benzac.de/img/bg1.jpg",
+            "action": "video:URL_M3U8_AQUI"
+          }
+        ]
+      }
+    },
+    {
+      "icon": "movie",
+      "label": "Videos",
+      "data": {
+        "type": "pages",
+        "template": {
+          "type": "separate",
+          "layout": "0,0,2,4",
+          "icon": "msx-white-soft:movie",
+          "color": "msx-glass"
         },
         "items": [
           {
             "title": "Videos MSX",
-            "label": "Pruebas de reproducción",
+            "label": "Demostración",
             "image": "https://msx.benzac.de/img/bg1.jpg",
             "action": "content:https://msx.benzac.de/info/data/guide/videos.json"
           }
@@ -23,7 +44,7 @@
       }
     },
     {
-      "icon": "language",
+      "icon": "image",
       "label": "Sitios web",
       "data": {
         "type": "pages",
