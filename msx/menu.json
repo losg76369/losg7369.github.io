@@ -7,44 +7,20 @@
     },
     {
       "icon": "movie",
-      "label": "Pluto TV México",
-      "extensionLabel": "Todos los canales en vivo",
+      "label": "Pluto TV en Español",
+      "extensionLabel": "Películas, Series, Kids y Entretenimiento",
       "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FBuddyChewChew%2Fpluto%2Fmain%2Fpluto_mx.m3u"
     },
 
     {
       "type": "separator",
-      "label": "TV EN ESPAÑOL (IPTV)"
+      "label": "CANALES EN ESPAÑOL (POR CATEGORÍAS)"
     },
     {
       "icon": "movie",
-      "label": "🌐 Todos los Canales en Español",
-      "extensionLabel": "Filtro global español",
+      "label": "📺 TV en Español (Todas las Categorías)",
+      "extensionLabel": "Películas, Kids, Deportes, Noticias y más",
       "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Flanguages%2Fspa.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "🇲🇽 México",
-      "extensionLabel": "Señal en vivo",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcountries%2Fmx.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "🇪🇸 España",
-      "extensionLabel": "Señal en vivo",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcountries%2Fes.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "🇦🇷 Argentina",
-      "extensionLabel": "Señal en vivo",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcountries%2Far.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "🇨🇴 Colombia",
-      "extensionLabel": "Señal en vivo",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcountries%2Fco.m3u"
     },
 
     {
