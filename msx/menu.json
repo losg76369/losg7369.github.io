@@ -1,73 +1,76 @@
 {
-  "name": "Mi Primer Servidor MSX",
-  "version": "1.0.0",
-  "type": "pages",
-  "items": [
+  "menu": [
     {
-      "title": "📺 TV EN VIVO",
-      "type": "pages",
-      "items": [
-        {
-          "title": "Pluto TV México",
-          "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FBuddyChewChew%2Fpluto%2Fmain%2Fpluto_mx.m3u"
-        }
-      ]
+      "label": "📺 TV EN VIVO",
+      "data": {
+        "type": "pages",
+        "items": [
+          {
+            "title": "Pluto TV México",
+            "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FBuddyChewChew%2Fpluto%2Fmain%2Fpluto_mx.m3u"
+          }
+        ]
+      }
     },
     {
-      "title": "📡 IPTV-org",
-      "type": "pages",
-      "items": [
-        {
-          "title": "🎬 Películas",
-          "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fmovies.m3u"
-        },
-        {
-          "title": "🎭 Entretenimiento",
-          "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fentertainment.m3u"
-        },
-        {
-          "title": "👶 Kids",
-          "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fkids.m3u"
-        },
-        {
-          "title": "📚 Documentales",
-          "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fdocumentary.m3u"
-        },
-        {
-          "title": "🎵 Música",
-          "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fmusic.m3u"
-        },
-        {
-          "title": "📰 Noticias",
-          "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fnews.m3u"
-        },
-        {
-          "title": "⚽ Deportes",
-          "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fsports.m3u"
-        },
-        {
-          "title": "🔬 Ciencia",
-          "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fscience.m3u"
-        },
-        {
-          "title": "✈️ Viajes",
-          "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Ftravel.m3u"
-        }
-      ]
+      "label": "📡 IPTV-org",
+      "data": {
+        "type": "pages",
+        "items": [
+          {
+            "title": "🎬 Películas",
+            "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fmovies.m3u"
+          },
+          {
+            "title": "🎭 Entretenimiento",
+            "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fentertainment.m3u"
+          },
+          {
+            "title": "👶 Kids",
+            "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fkids.m3u"
+          },
+          {
+            "title": "📚 Documentales",
+            "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fdocumentary.m3u"
+          },
+          {
+            "title": "🎵 Música",
+            "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fmusic.m3u"
+          },
+          {
+            "title": "📰 Noticias",
+            "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fnews.m3u"
+          },
+          {
+            "title": "⚽ Deportes",
+            "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fsports.m3u"
+          },
+          {
+            "title": "🔬 Ciencia",
+            "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fscience.m3u"
+          },
+          {
+            "title": "✈️ Viajes",
+            "action": "content:http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Ftravel.m3u"
+          }
+        ]
+      }
     },
     {
-      "title": "🌐 SITIOS WEB",
-      "type": "pages",
-      "items": [
-        {
-          "title": "Pluto TV",
-          "action": "link:https://pluto.tv/latam/home/"
-        },
-        {
-          "title": "SoloLatino",
-          "action": "link:https://sololatino.net/"
-        }
-      ]
+      "label": "🌐 SITIOS WEB",
+      "data": {
+        "type": "pages",
+        "items": [
+          {
+            "title": "Pluto TV",
+            "action": "link:https://pluto.tv/latam/home/"
+          },
+          {
+            "title": "SoloLatino",
+            "action": "link:https://sololatino.net/"
+          }
+        ]
+      }
     }
   ]
 }
