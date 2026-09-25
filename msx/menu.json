@@ -10,39 +10,26 @@
           "type": "default",
           "layout": "0,0,3,2",
           "color": "msx-glass",
-          "imageFiller": "cover",
-          "action": "link"
-        },
-        "items": [
-          {
-            "label": "Pluto TV",
-            "image": "https://losg76369.github.io/41+C5TFE3kL.png",
-            "action": "link:https://pluto.tv/latam/home/"
-          },
-          {
-            "label": "CineCalidad",
-            "image": "https://losg76369.github.io/unnamed.jpg",
-            "action": "link:https://sololatino.net/"
-          }
-        ]
-      }
-    },
-    {
-      "icon": "video",
-      "label": "Pruebas de vídeo",
-      "data": {
-        "type": "pages",
-        "template": {
-          "type": "default",
-          "layout": "0,0,3,2",
-          "color": "msx-glass",
           "imageFiller": "cover"
         },
         "items": [
           {
-            "label": "Vídeo de prueba",
-            "image": "https://dummyimage.com/640x360/000/fff.png&text=VIDEO+TEST",
-            "action": "video:https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+            "title": "Pluto TV",
+            "label": "Abrir sitio web",
+            "image": "https://losg76369.github.io/41+C5TFE3kL.png",
+            "action": "link:https://pluto.tv/latam/home/"
+          },
+          {
+            "title": "CineCalidad",
+            "label": "Abrir sitio web",
+            "image": "https://losg76369.github.io/unnamed.jpg",
+            "action": "link:https://sololatino.net/"
+          },
+          {
+            "title": "Prueba de vídeo",
+            "label": "Reproducir vídeo",
+            "image": "https://dummyimage.com/640x360/000/fff.png&text=VIDEO",
+            "action": "content:https://losg76369.github.io/msx/video.json"
           }
         ]
       }
