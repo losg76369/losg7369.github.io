@@ -17,7 +17,6 @@
       "extensionLabel": "Lista M3U",
       "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fm3u.cl%2Flista%2FLATAM.m3u"
     },
-
     {
       "type": "separator",
       "label": "SITIOS WEB"
