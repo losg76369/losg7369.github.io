@@ -1,69 +1,36 @@
 {
-  "headline": "Mi Primer Servidor MSX",
-  "menu": [
-    {
-      "type": "separator",
-      "label": "TV EN VIVO"
+  "type": "separator",
+  "label": "OTRAS LISTAS"
+},
+{
+  "icon": "movie",
+  "label": "Películas",
+  "extensionLabel": "IPTV-org",
+  "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fmovies.m3u"
+},
+{
+  "icon": "movie",
+  "label": "Canales por idioma",
+  "extensionLabel": "IPTV-org",
+  "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Findex.language.m3u"
+},
+{
+  "icon": "movie",
+  "label": "Canal HLS",
+  "extensionLabel": "M3U8",
+  "data": {
+    "type": "pages",
+    "template": {
+      "type": "default",
+      "layout": "0,0,3,2",
+      "color": "msx-glass"
     },
-    {
-      "icon": "movie",
-      "label": "Pluto TV México",
-      "extensionLabel": "Canales en vivo",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FBuddyChewChew%2Fpluto%2Fmain%2Fpluto_mx.m3u"
-    },
-    {
-      "icon": "movie",
-      "label": "LATAM",
-      "extensionLabel": "Lista M3U",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fm3u.cl%2Flista%2FLATAM.m3u"
-    },
-    {
-      "type": "separator",
-      "label": "SITIOS WEB"
-    },
-    {
-      "icon": "web",
-      "label": "Pluto TV",
-      "extensionLabel": "Sitio web",
-      "data": {
-        "type": "pages",
-        "template": {
-          "type": "default",
-          "layout": "0,0,3,2",
-          "color": "msx-glass",
-          "imageFiller": "cover"
-        },
-        "items": [
-          {
-            "title": "Pluto TV",
-            "label": "Abrir sitio web",
-            "image": "https://losg76369.github.io/41+C5TFE3kL.png",
-            "action": "link:https://pluto.tv/latam/home/"
-          }
-        ]
+    "items": [
+      {
+        "title": "Canal HLS",
+        "label": "Reproducir",
+        "action": "video:http://fortv.cc:8080/live/A5aaXj/235081/139757.m3u8"
       }
-    },
-    {
-      "icon": "web",
-      "label": "SoloLatino",
-      "extensionLabel": "Sitio web",
-      "data": {
-        "type": "pages",
-        "template": {
-          "type": "default",
-          "layout": "0,0,3,2",
-          "color": "msx-glass",
-          "imageFiller": "cover"
-        },
-        "items": [
-          {
-            "title": "SoloLatino",
-            "label": "Abrir sitio web",
-            "image": "https://losg76369.github.io/unnamed.jpg",
-            "action": "link:https://sololatino.net/"
-          }
-        ]
-      }
-    }
-  ]
+    ]
+  }
 }
