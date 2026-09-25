@@ -2,8 +2,13 @@
   "headline": "Mi Primer Servidor MSX",
   "menu": [
     {
-      "icon": "home",
-      "label": "Inicio",
+      "icon": "movie",
+      "label": "TV de prueba",
+      "data": "content:https://losg76369.github.io/msx/tv.json"
+    },
+    {
+      "icon": "language",
+      "label": "Sitios web",
       "data": {
         "type": "pages",
         "template": {
@@ -24,12 +29,6 @@
             "label": "Abrir sitio web",
             "image": "https://losg76369.github.io/unnamed.jpg",
             "action": "link:https://sololatino.net/"
-          },
-          {
-            "title": "Videos MSX",
-            "label": "Prueba oficial",
-            "image": "https://msx.benzac.de/img/bg1.jpg",
-            "action": "content:https://msx.benzac.de/info/data/guide/videos.json"
           }
         ]
       }
