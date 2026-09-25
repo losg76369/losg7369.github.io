@@ -3,71 +3,18 @@
   "menu": [
     {
       "type": "separator",
-      "label": "PLUTO TV (EN ESPAÑOL)"
+      "label": "TV Y CONTENIDO EN ESPAÑOL"
     },
     {
       "icon": "movie",
-      "label": "Pluto TV México",
-      "extensionLabel": "Canales en vivo en español",
+      "label": "Pluto TV en Español",
+      "extensionLabel": "Agrupado por Películas, Kids, Series y Deportes",
       "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FBuddyChewChew%2Fpluto%2Fmain%2Fpluto_mx.m3u"
     },
-
-    {
-      "type": "separator",
-      "label": "CATEGORÍAS EN ESPAÑOL"
-    },
     {
       "icon": "movie",
-      "label": "🎬 Películas",
-      "extensionLabel": "Cine en español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FBuddyChewChew%2Fpluto%2Fmain%2Fpluto_mx.m3u#Movies"
-    },
-    {
-      "icon": "movie",
-      "label": "🎭 Entretenimiento",
-      "extensionLabel": "Shows y Variedades",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FBuddyChewChew%2Fpluto%2Fmain%2Fpluto_mx.m3u#Entertainment"
-    },
-    {
-      "icon": "movie",
-      "label": "👶 Kids / Infantiles",
-      "extensionLabel": "Caricaturas y contenido infantil",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FBuddyChewChew%2Fpluto%2Fmain%2Fpluto_mx.m3u#Kids"
-    },
-    {
-      "icon": "movie",
-      "label": "📺 Series",
-      "extensionLabel": "Series y Novelas",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FBuddyChewChew%2Fpluto%2Fmain%2Fpluto_mx.m3u#Series"
-    },
-    {
-      "icon": "movie",
-      "label": "⚽ Deportes",
-      "extensionLabel": "Eventos deportivos en vivo",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FBuddyChewChew%2Fpluto%2Fmain%2Fpluto_mx.m3u#Sports"
-    },
-    {
-      "icon": "movie",
-      "label": "📰 Noticias",
-      "extensionLabel": "Información en español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FBuddyChewChew%2Fpluto%2Fmain%2Fpluto_mx.m3u#News"
-    },
-    {
-      "icon": "movie",
-      "label": "📚 Documentales y Ciencia",
-      "extensionLabel": "Cultura y Naturaleza",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FBuddyChewChew%2Fpluto%2Fmain%2Fpluto_mx.m3u#Documentary"
-    },
-    {
-      "icon": "movie",
-      "label": "🎵 Música",
-      "extensionLabel": "Videos y conciertos",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FBuddyChewChew%2Fpluto%2Fmain%2Fpluto_mx.m3u#Music"
-    },
-    {
-      "icon": "movie",
-      "label": "🌐 Todos los Canales (Español)",
-      "extensionLabel": "Lista completa hispana",
+      "label": "IPTV en Español (Por Categorías)",
+      "extensionLabel": "Canales hispanos organizados por temática",
       "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Flanguages%2Fspa.m3u"
     },
 
