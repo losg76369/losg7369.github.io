@@ -1,15 +1,24 @@
 {
-  "headline": "Mi Primer Servidor MSX",
+  "headline": "Prueba",
   "menu": [
     {
-      "title": "Pluto TV",
-      "image": "https://losg76369.github.io/41+C5TFE3kL.png",
-      "action": "link:https://pluto.tv/latam/home/"
-    },
-    {
-      "title": "CineCalidad",
-      "image": "https://losg76369.github.io/unnamed.jpg",
-      "action": "link:https://sololatino.net/"
+      "icon": "image",
+      "label": "Prueba",
+      "data": {
+        "type": "pages",
+        "template": {
+          "type": "default",
+          "layout": "0,0,3,2",
+          "action": "link"
+        },
+        "items": [
+          {
+            "label": "Example",
+            "image": "https://losg76369.github.io/41+C5TFE3kL.png",
+            "action": "link:https://example.com/"
+          }
+        ]
+      }
     }
   ]
 }
