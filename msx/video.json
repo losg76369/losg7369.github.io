@@ -1,0 +1,17 @@
+{
+  "type": "pages",
+  "headline": "Prueba de vídeo",
+  "template": {
+    "type": "separate",
+    "layout": "0,0,2,2",
+    "color": "msx-glass"
+  },
+  "items": [
+    {
+      "title": "Big Buck Bunny",
+      "label": "Vídeo de prueba",
+      "image": "https://dummyimage.com/640x360/000/fff.png&text=VIDEO",
+      "action": "video:https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    }
+  ]
+}
