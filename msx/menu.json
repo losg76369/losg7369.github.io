@@ -5,25 +5,18 @@
       "label": "Inicio",
       "icon": "home",
       "data": {
-        "type": "pages",
-        "pages": [
+        "items": [
           {
-            "items": [
-              {
-                "type": "button",
-                "title": "PlutoTV",
-                "label": "Ver TV en vivo",
-                "image": "https://losg76369.github.io/41%2BC5TFE3kL.png",
-                "action": "link:https://pluto.tv/latam/home/"
-              },
-              {
-                "type": "button",
-                "title": "CineCalidad",
-                "label": "Ver Películas",
-                "image": "https://losg76369.github.io/unnamed.jpg",
-                "action": "link:https://sololatino.net/"
-              }
-            ]
+            "title": "PlutoTV",
+            "label": "Ver TV en vivo",
+            "image": "https://losg76369.github.io/41+C5TFE3kL.png",
+            "action": "link:https://pluto.tv/latam/home/"
+          },
+          {
+            "title": "CineCalidad",
+            "label": "Ver Películas",
+            "image": "https://losg76369.github.io/unnamed.jpg",
+            "action": "link:https://sololatino.net/"
           }
         ]
       }
