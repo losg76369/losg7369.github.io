@@ -1,129 +1,190 @@
+
 {
   "headline": "Mi Primer Servidor MSX",
   "menu": [
 
     {
       "type": "separator",
-      "label": "TELEVISIÓN EN ESPAÑOL"
+      "label": "TV EN VIVO"
+    },
+
+    {
+      "icon": "movie",
+      "label": "Pluto TV México",
+      "extensionLabel": "Canales en vivo",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FBuddyChewChew%2Fpluto%2Fmain%2Fpluto_mx.m3u"
+    },
+
+    {
+      "icon": "movie",
+      "label": "Free-TV",
+      "extensionLabel": "IPTV",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fraw.githubusercontent.com%2FFree-TV%2FIPTV%2Fmaster%2Fplaylist.m3u8"
+    },
+
+    {
+      "type": "separator",
+      "label": "CLASIFICACIÓN POR TIPO"
     },
 
     {
       "icon": "movie",
       "label": "🎬 Películas",
-      "extensionLabel": "Canales en español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fmovies-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fmovies.m3u"
     },
 
     {
       "icon": "movie",
       "label": "🎭 Entretenimiento",
-      "extensionLabel": "Canales en español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fentertainment-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fentertainment.m3u"
     },
 
     {
       "icon": "movie",
       "label": "👶 Kids",
-      "extensionLabel": "Canales en español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fkids-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fkids.m3u"
     },
 
     {
       "icon": "movie",
       "label": "📚 Documentales",
-      "extensionLabel": "Canales en español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fdocumentary-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fdocumentary.m3u"
     },
 
     {
       "icon": "movie",
       "label": "🎵 Música",
-      "extensionLabel": "Canales en español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fmusic-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fmusic.m3u"
     },
 
     {
       "icon": "movie",
       "label": "📰 Noticias",
-      "extensionLabel": "Canales en español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fnews-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fnews.m3u"
     },
 
     {
       "icon": "movie",
       "label": "⚽ Deportes",
-      "extensionLabel": "Canales en español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fsports-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fsports.m3u"
     },
 
     {
       "icon": "movie",
       "label": "🔬 Ciencia",
-      "extensionLabel": "Canales en español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fscience-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fscience.m3u"
     },
 
     {
       "icon": "movie",
       "label": "✈️ Viajes",
-      "extensionLabel": "Canales en español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Ftravel-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Ftravel.m3u"
     },
 
     {
       "icon": "movie",
       "label": "🎨 Animación",
-      "extensionLabel": "Canales en español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fanimation-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fanimation.m3u"
     },
 
     {
       "icon": "movie",
       "label": "😂 Comedia",
-      "extensionLabel": "Canales en español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fcomedy-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fcomedy.m3u"
     },
 
     {
       "icon": "movie",
       "label": "🍳 Cocina",
-      "extensionLabel": "Canales en español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fcooking-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fcooking.m3u"
     },
 
     {
       "icon": "movie",
       "label": "🌎 Cultura",
-      "extensionLabel": "Canales en español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fculture-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fculture.m3u"
     },
 
     {
       "icon": "movie",
       "label": "📖 Educación",
-      "extensionLabel": "Canales en español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Feducation-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Feducation.m3u"
     },
 
     {
       "icon": "movie",
       "label": "👨‍👩‍👧 Familia",
-      "extensionLabel": "Canales en español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Ffamily-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Ffamily.m3u"
     },
 
     {
       "icon": "movie",
       "label": "📺 Series",
-      "extensionLabel": "Canales en español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fseries-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fseries.m3u"
     },
 
     {
       "icon": "movie",
       "label": "🌦️ Clima",
-      "extensionLabel": "Canales en español",
-      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Flosg76369.github.io%2Fmsx%2Fplaylists%2Fweather-es.m3u"
+      "extensionLabel": "IPTV-org",
+      "data": "http://msx.benzac.de/services/m3u.php?type=video&url=https%3A%2F%2Fiptv-org.github.io%2Fiptv%2Fcategories%2Fweather.m3u"
+    },
+
+    {
+      "type": "separator",
+      "label": "SITIOS WEB"
+    },
+
+    {
+      "icon": "movie",
+      "label": "Pluto TV",
+      "extensionLabel": "Sitio web",
+      "data": {
+        "type": "pages",
+        "template": {
+          "type": "seamless",
+          "layout": "0,0,2,2"
+        },
+        "items": [
+          {
+            "action": "link:https://pluto.tv/latam/home/"
+          }
+        ]
+      }
+    },
+
+    {
+      "icon": "movie",
+      "label": "SoloLatino",
+      "extensionLabel": "Sitio web",
+      "data": {
+        "type": "pages",
+        "template": {
+          "type": "seamless",
+          "layout": "0,0,2,2"
+        },
+        "items": [
+          {
+            "action": "link:https://sololatino.net/"
+          }
+        ]
+      }
     }
 
   ]
